@@ -4,14 +4,29 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-
+Hobbies
 🎮 Video Games
 🎵 Making Music
 📖 Reading
 🏊 Swimming
 
 
-Languages and Tools:
+import Developer from 'ferchojoshua';
+import { Languages, Frameworks } from 'ferchojoshua/skill';
+
+class Biography extends Developer {
+  name = 'Gerold Ferchojoshua';
+  title = 'Developer';
+  location = 'Nicaragua, Leon';
+}
+
+class Skill extends Developer {
+  languages = ['PHP', 'JavaScript', 'TypeScript', 'C#', 'HTML', ...Languages];
+  databases = ['MySQL', 'SQLServer', 'PostgreSQL', 'OracleSQL', 'Sybase'];
+  frameworks = ['Laravel', 'Vue', 'React.js', ...Frameworks];
+}
+
+export { Biography, Skill };
 
            
 <!---
